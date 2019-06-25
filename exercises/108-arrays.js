@@ -10,7 +10,7 @@
 
 function threeFruits () {
   const fruits = ['Apple', 'Banana', 'Cherry']
-
+return fruits
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,6 +20,7 @@ function threeFruits () {
 function multipleTypes () {
   const diverseArray = ['Skateboard', null, 8.75, 'Eiffel Tower', 44, 7, true, null]
 
+  return diverseArray
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -40,6 +41,8 @@ function indexAccess () {
 
   // return the third item from the "people" array here
 
+return people [2]
+
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -48,7 +51,7 @@ function indexAccess () {
 
 function useLength () {
   const arr = ['a', 'b', 'c']
-
+return arr.length 
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,7 +60,8 @@ function useLength () {
 
 function usePush () {
   let arr = ['a', 'b', 'c']
-
+arr.push ('d')
+return arr
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -66,7 +70,8 @@ function usePush () {
 
 function usePop () {
   let arr = ['a', 'b', 'c']
-
+arr.pop ('c')
+return arr
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -85,6 +90,7 @@ function useIndexOf () {
 
   // return the index of the first instance of "T" here
 
+return arr.indexOf('T')
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -100,6 +106,7 @@ function useJoin () {
   console.assert(arr.join('') === 'abcdef') // pass an empty string to have no separator
 
   // create and return the string 'a-b-c-d-e-f' here
+return arr.join ('-')
 
 }
 
